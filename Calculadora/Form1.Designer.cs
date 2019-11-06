@@ -58,6 +58,7 @@
             this.minus = new System.Windows.Forms.Label();
             this.memory = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button26 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -496,6 +497,21 @@
             this.label2.TabIndex = 29;
             this.label2.Text = "label2";
             // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.Transparent;
+            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button26.ForeColor = System.Drawing.Color.Transparent;
+            this.button26.Location = new System.Drawing.Point(154, 321);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(70, 70);
+            this.button26.TabIndex = 30;
+            this.button26.Text = "÷";
+            this.button26.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -503,6 +519,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(379, 712);
+            this.Controls.Add(this.button26);
             this.Controls.Add(this.memory);
             this.Controls.Add(this.minus);
             this.Controls.Add(this.button25);
@@ -570,6 +587,7 @@
         private System.Windows.Forms.Label minus;
         private System.Windows.Forms.Label memory;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button26;
     }
 }
 
